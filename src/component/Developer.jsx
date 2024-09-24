@@ -3,8 +3,8 @@ import Almas from '../assets/Almas.jpg'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import Soc1 from '../assets/soc1.png'
-import Soc2 from '../assets/soc2.jpg'
-import Soc3 from '../assets/soc3.jpg'
+import Soc2 from '../assets/Soc2.jpg'
+import Soc3 from '../assets/Soc3.jpg'
 
 const Developer=()=>{
 
