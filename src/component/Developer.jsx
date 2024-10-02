@@ -3,7 +3,7 @@ import Almas from '../assets/Almas.jpg';
 import emailjs from '@emailjs/browser';
 import Soc3 from '../assets/Soc3.jpg';
 import Soc2 from '../assets/Soc2.jpg';
-import Soc1 from '../assets/Soc1.png';
+import Soc1 from '../assets/soc1.png';
 
 const Developer = () => {
   const form = useRef();
