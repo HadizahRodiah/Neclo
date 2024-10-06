@@ -34,7 +34,7 @@ const Africa = () => {
       <div className="bg-slate-200 ml-6 flex flex-wrap justify-center">
         <div className='mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-rows-3 lg:grid-cols-4 gap-4'>
           {currentArticles.map((data, index) => (
-            <div key={index} className="main max-w-sm rounded overflow-hidden shadow-lg bg-white hover:shadow-xl transition-shadow duration-300" data-aos="fade-up-left">
+            <div key={index} className="main max-w-sm rounded overflow-hidden shadow-lg bg-white hover:shadow-xl transition-shadow duration-300">
               <img className="w-full h-48 object-cover" src={data.urlToImage} alt={data.title} />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">{data.title}</div>

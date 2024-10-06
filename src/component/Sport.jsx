@@ -34,7 +34,7 @@ const Sport = () => {
       <div className="ml-6 flex flex-wrap bg-slate-200">
         <div className='mt-10  flex flex-col md:flex-row'>
           {currentArticles.map((data, index) => (
-            <div key={index} className="main max-w-sm rounded bg-white overflow-hidden shadow-lg m-4" data-aos="fade-up-left">
+            <div key={index} className="main max-w-sm rounded bg-white overflow-hidden shadow-lg m-4" >
               <img className="w-full" src={data.urlToImage} alt={data.title} />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">{data.title}</div>

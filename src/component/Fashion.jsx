@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import AOS from 'aos'; // Ensure you have installed aos and imported it if you're using it
-import 'aos/dist/aos.css'; // AOS CSS
+
 
 const Fashion = () => {
   const [news, setNews] = useState([]);
@@ -37,7 +36,7 @@ const Fashion = () => {
       <div className="ml-6 flex flex-wrap justify-center">
         <div className='mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
           {currentArticles.map((data, index) => (
-            <div key={index} className="main max-w-sm rounded bg-white overflow-hidden shadow-lg m-4 hover:shadow-2xl transition-shadow duration-300" data-aos="fade-up-left">
+            <div key={index} className="main max-w-sm rounded bg-white overflow-hidden shadow-lg m-4 hover:shadow-2xl transition-shadow duration-300">
               <img className="w-full h-48 object-cover" src={data.urlToImage} alt={data.title} />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">{data.title}</div>
